@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "SF-Pro-Text-Regular";
 }
+html{
+    color: white;
+}
 a {
     text-decoration: none;
     color: var(--color-secundario);
@@ -25,9 +28,7 @@ img {
     object-position: top;
 }
 
-.contain__header{
-box-shadow: ;
-}
+
 .container {
     max-width: var(--desktop);
     margin: 0 auto;
@@ -63,7 +64,6 @@ display: none;
 .producto{
     display: flex;
     margin-bottom: 1rem;
-    box-shadow: ;
     gap: 1em;
 }
 .container_product_img_vista{
@@ -142,6 +142,14 @@ color: red;
     justify-content: space-between;
 
 }
+.container__carrito h2 {
+color: #333;
+
+}
+.container__carrito span {
+    color: #333;
+    
+    }
 
 .carrito_producto__ppal{
     width: 500px;
