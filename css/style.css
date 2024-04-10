@@ -11,7 +11,7 @@ a {
     color: var(--color-secundario);
 }
 body{
-    background: var(--color-sexto)
+    background: var(--color-ternario)
 
 }
 h2, p{
@@ -26,5 +26,30 @@ img {
 }
 
 .contain__header{
+box-shadow: ;
+}
+.container {
+    max-width: var(--desktop);
+    margin: 0 auto;
+    background-color:var(--color-sexto) ;
 }
 
+.header {
+    max-width: var(--desktop);
+    margin: 0 auto;
+    padding-block: 1em;
+}
+
+.iconos__header{
+display: none;
+}
+
+.nav__header{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 0.4em;
+}
+
+.header_nav_title{
+    
+}
