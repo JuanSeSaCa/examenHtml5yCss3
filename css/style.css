@@ -123,7 +123,7 @@ color: red;
 
 .seleccion {
     width: 400px;
-    background-color: var(--color-quinto);
+    background-color: var(--color-sexto);
     padding: 2em;
     height: fit-content;
 }
