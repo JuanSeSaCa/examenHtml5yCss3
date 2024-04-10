@@ -69,9 +69,12 @@ display: none;
 .container_product_img_vista{
     width: 20%;
     height: 100%;
+    background: var(--color-sexto);
+
 }
 .producto_img_main{
     width: 60%;
+    background: var(--color-primario);
    
 }
 
@@ -80,7 +83,8 @@ display: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40%;
+    width: 40%;
+    margin: 1rem auto;
 
 }
 
@@ -89,14 +93,19 @@ display: none;
 }
 
 .descripciom_producto{
+    line-height: 1.5;
 
+}
+span .precio_producto :first-child{
+color: red;
 }
 
 .btn__producto{
-    background-color: var(--color-secundario);
+    background-color: var(--color-primario);
     width: max-content;
     display: block;
-    padding: ;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
 
 }
 
