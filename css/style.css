@@ -51,5 +51,42 @@ display: none;
 }
 
 .header_nav_title{
+    padding: 0.4rem;
+
+}
+
+.header_nav_title:hover{
+    background-color: var(--color-primario);
     
 }
+
+.producto{
+    display: flex;
+    margin-bottom: 1rem;
+    box-shadow: ;
+    gap: 1em;
+}
+.container_product_img_vista{
+    width: 20%;
+    height: 100%;
+}
+.producto_img_main{
+    width: 80%;
+}
+
+.container_texto_producto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.titulo_producto{
+    font-size: 1.5rem;
+}
+
+.descripciom_producto{
+    
+}
+
