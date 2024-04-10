@@ -6,3 +6,25 @@
     box-sizing: border-box;
     font-family: "SF-Pro-Text-Regular";
 }
+a {
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+body{
+    background: var(--color-sexto)
+
+}
+h2, p{
+    color: var(--color-secundario);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.contain__header{
+}
+
