@@ -71,7 +71,8 @@ display: none;
     height: 100%;
 }
 .producto_img_main{
-    width: 80%;
+    width: 60%;
+   
 }
 
 .container_texto_producto {
@@ -79,6 +80,7 @@ display: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 40%;
 
 }
 
@@ -138,5 +140,22 @@ display: none;
     height: fit-content;
     position: relative;
 }
+.car__productos div{
+    display: flex;
+    gap: 1rem;
 
-.car__
+
+}
+.car_producto_img{
+    width: 100px;
+    height: 100px;
+}
+.carrito_prod_con_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.car_producto_cantidad{
+    display: flex;
+    gap: 2em;
+}
